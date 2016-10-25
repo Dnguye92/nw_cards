@@ -1,0 +1,128 @@
+html, body, header, footer, 
+nav, ul, li, hr, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Rubik', sans-serif;
+	vertical-align: baseline;
+	color: #464646;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: 900;
+	font-family: 'Open Sans', sans-serif;
+	/*text-shadow: 1.5px 1.5px #B5B5B5;*/
+}
+
+#cardIntro {
+	text-align: center;
+	color: #929292;
+}
+
+#nerdHeader {
+	font-weight: 900;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+	-webkit-transition: all 0.2s ease-out; /* Safari */
+    transition: all 0.2s ease-out;
+}
+
+.container:hover {
+	background-color: #E7E7E7;
+	opacity: 1;
+	border-radius: 5px;
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.search {
+	text-align: center;
+}
+
+span {
+	font-family: 'Raleway', sans-serif;
+}
+
+.info {
+	padding: 10px 0 10px 0;
+}
+
+img {
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,.2)
+}
+
+img:hover {
+	opacity: .85;
+}
+
+#cardImg {
+	padding-top: 2em;
+}
+
+.btn-default {
+	text-decoration: none;
+	background-color: #6ed14f;
+	outline-color: #6ed14f;
+	color: #fff;
+	-webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+    margin-bottom: 1em;
+}
+
+.btn-default:hover,
+.btn-default:active, .btn-default:focus {
+	text-decoration: none;
+	background-color: #4CAF50;
+	outline-color: #4CAF50;
+	border-color: #4CAF50;
+	color: #fff;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.2)
+}
+
+#backToTop, #backToTop:hover,
+#backtoTop:clicked, #backToTop:focus,
+a:hover {
+	color: #00BEE2;
+	text-decoration: none;
+	-webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+}
+
+.cardPage {
+	padding-top: 25px;
+}
+
+.cardList li {
+
+}
+
+.creditCards.ng-enter.ng-enter-active,
+.creditCards.ng-leave {
+	opacity: 1;
+	height: 80px;
+	overflow: hidden;
+}
+
+.creditCards.ng-leave.ng-eleave-active,
+.creditCards.ng-enter {
+	opacity: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+
+/* For modern browsers */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+
+.cf:after {
+    clear:both;
+}

@@ -1,0 +1,43 @@
+<section class="cardPage">
+	<div class="search">
+			<h4 id="nerdHeader">NERDWALLET'S</h4>
+			<h1>Best Credit Cards of 2016</h1>
+			<p id="cardIntro">From huge sign-up bonuses to generous rewards, NerdWallet's best credit<br> cards outshine the rest. Compare these deals, some of which are from our<br> partners, to find one that fits your needs.</p>
+			<label>Search: </label>
+			<input class="form-group" ng-model="query" placeholder="Search for Credit Card" autofocus>
+			<label class="form-group">
+				<select class="form-control" ng-model="cardOrder">
+					<option value="name">Name</option>
+					<option value="annual">Annual Rate</option>
+				</select>
+			</label>
+			<label class="radio-inline">
+				<input type="radio" ng-model="direction" name="direction" checked> Ascending
+			</label>
+			<label class="radio-inline">
+				<input type="radio" ng-model="direction" name="direction" value="reverse"> Descending
+			</label>
+		</div>
+		<ul class="cardList">
+			<li ng-animate="'animate'" class="creditCards cf" ng-repeat="item in cardName | filter: query | orderBy: cardOrder:direction">
+				<div class="info">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-offset-1 col-md-3" id="cardImg">
+								<a href="{{item.link}}" target="_blank">
+									<img ng-src="img/{{item.shortname}}.jpg" alt="Photo of {{item.name}}" class="img-responsive">
+								</a>
+								<a href="{{item.top}}" id="backToTop">[back to top]</a>
+							</div>
+							<div class="col-md-7">
+								<h2>{{item.name}}</h2>
+								<h3 class="rewards">Rewards: <span>{{item.details}}</span></h3>
+								<h4 class="annualFee">Annual Fee: <span>{{item.annual}}</span></h4>
+								<a class="btn btn-default" href="{{item.link}}" role="button" target="_blank"><i class="fa fa-lock fa-lg" aria-hidden="true"></i> Apply Now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+</section>

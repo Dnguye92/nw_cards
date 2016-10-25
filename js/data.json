@@ -1,0 +1,162 @@
+[
+	{
+		"name": "Chase Sapphire Preferred Card",
+		"shortname": "BO_CC1",
+		"details": "Earn 50,000 bonus points after you spend $4,000 on purchases in the first 3 months from account opening. That's $625 toward travel when you redeem through Chase Ultimate Rewards",
+		"annual": "$0 dollars for the first year, then $95",
+		"link": "https://creditcards.chase.com/a1/sapphire/compare?CELL=6H8X&AFFID=SWlnSnn6x54-jKyFgWkF9hl1a7aCEZWsbQ&pvid=5ed216b704e34cbc9a304e9c36abecb9&jp_cmp=cc/459013/aff/15-31363/na",
+		"top": "#cardPage"
+	},
+	{
+		"name": "BankAmericard Travel Rewards Credit Card",
+		"shortname": "BO_CC2",
+		"details": "20,000 online bonus points if you make at least $1,000 in purchases in the first 90 days - that can be a $200 statement credit toward travel purchases",
+		"annual": "$0",
+		"link": "https://secure.bankofamerica.com/applynow/welcome.go",
+		"top": "#cardPage"
+	},
+	{
+		"name": "Blue Cash Preferred Card from American Express",
+		"shortname": "BO_CC3",
+		"details": "Special Offer - Earn 5% cash back on eligible travel purchases in the first 6 months, up to $200. Plus, earn $150 back after you spend $1,000 in purchases on your new Card within the first 3 months. Terms Apply",
+		"annual": "$95",
+		"link": "https://www.americanexpress.com/us/credit-cards/site/card/blue-cash-preferred/26129?extlink=af-us-ccsg-BCPLM&PID=15-12634201-3842381-353e3529694f4264bd80c473c5330ce2&BUID=CCG&PSKU=BCP&CRTV=BCPLM&CID=2929746",
+		"top": "#cardPage"
+	},
+	{
+		"name": "Discover It - Cashback Match",
+		"shortname": "BO_CC4",
+		"details": "Cashback Match™ - We’ll automatically match all the cash back you earn at the end of your first year. New cardmembers only",
+		"annual": "$0",
+		"link": "https://www.discovercard.com/application/displayLanding?pageFileId=double-listingsite&sc=KE3V&cmpgnid=ls-dca-cj-nerd-consumer-it-ke3v-dtop&aid=12460393&pid=3842381&sid=e0fd96021cd744f1b5d431d9a73b1cfe",
+		"top": "#cardPage"
+	},
+	{
+		"name": "Discover It - 18 Month Balance Transfer Offer",
+		"shortname": "BT_CC1",
+		"details": "You could turn $200 into $400 with Cashback Match™. We’ll automatically match all the cash back you earn at the end of your first year. New cardmembers only",
+		"annual": "$0",
+		"link": "https://www.discovercard.com/application/displayLanding?pageFileId=double-listingsite&sc=KE3W&cmpgnid=ls-dca-cj-nerd-consumer-it-ke3w-dtop&aid=12460396&pid=3842381&sid=61914feb270f4b98b8dd768b20349f5e",
+		"top": "#cardPage"
+	},
+	{
+		"name": "BankAmericard Cash Rewards Credit Card",
+		"shortname": "CB_CC1",
+		"details": "$100 online cash rewards bonus after you spend at least $500 on purchases in the first 90 days of account opening",
+		"annual": "$0",
+		"link": "https://secure.bankofamerica.com/applynow/initialize-workflow.go?requesttype=C&campaignid=4010871&productoffercode=TX&GV10=H|870|3842381&GV11=H|871|12718811&GV12=H|940|3b67f58848164689afb7652f5bcfe2f6&genericvariables=870~3842381|871~12718811|940~3b67f58848164689afb7652f5bcfe2f6",
+		"top": "#cardPage"
+	},
+	{
+		"name": "Chase Freedom Unlimited",
+		"shortname": "CB_CC2",
+		"details": "Earn a $150 Bonus after you spend $500 on purchases in your first 3 months from account opening",
+		"annual": "$0",
+		"link": "https://creditcards.chase.com/a1/freedom-unlimited?CELL=6H8X&AFFID=SWlnSnn6x54-yXo00pRCmC.YqZh7icVzqw&pvid=096a5193337a43d786c4edf5454e4f50&jp_cmp=cc/459013/aff/15-31370/na",
+		"top": "#cardPage"
+	},
+	{
+		"name": "Capital One Venture Rewards Credit Card",
+		"shortname": "TRVL_CC3",
+		"details": "Enjoy a one-time bonus of 40,000 miles once you spend $3,000 on purchases within 3 months of approval, equal to $400 in travel",
+		"annual": "$0 for the first year, then $59",
+		"link": "https://application1.capitalone.com/icoreapp/jsp/application.faces?s=0013353003000XXCO31XX1ZZZZZZZZXXZUNS11ZZZZZZZZZZZZZZ&IARC=UNS&external_id=CJA_ZZ12606434_USCCJ_K3842381_af6e662849af4b9bae064c5bc5123494",
+		"top": "#cardPage"
+	},
+	{
+		"name": "BankAmeriCard Credit Card",
+		"shortname": "LINT_CC1",
+		"details": "None",
+		"annual": "$0",
+		"link": "https://secure.bankofamerica.com/applynow/welcome.go",
+		"top": "#cardPage"
+	},
+	{
+		"name": "Chase Slate",
+		"shortname": "LINT_CC2",
+		"details": "Save with a $0 introductory balance transfer fee, 0% introductory APR for 15 months on purchases and balance transfers, and $0 annual fee. Plus, receive your Monthly FICO® Score for free",
+		"annual": "$0",
+		"link": "https://creditcards.chase.com/a1/slate-credit-card/oa?AFFID=SWlnSnn6x54-5x27dUx0hdXC7j8BeYljww&pvid=3957d1507f07447da348d8f670872ff5&jp_cmp=cc/459013/aff/15-31340/na",
+		"top": "#cardPage"
+	},
+	{
+		"name": "Barclaycard Ring MasterCard",
+		"shortname": "LINT_CC3",
+		"details": "A low variable APR on balance transfers and purchases",
+		"annual": "$0",
+		"link": "http://www.findmybarclaycard.com/barclaycard-affiliates/?campaignId=2039&cellNumber=9&referrerid=CJAPP_12645244-3842381-7770f1fa8e4645788c595eb8234f96af",
+		"top": "#cardPage"
+	},
+	{
+		"name": "Ink Cash Business Credit Card",
+		"shortname": "BSNS_CC1",
+		"details": "Earn $300 bonus cash back after you spend $3,000 on purchases in the first 3 months from account opening",
+		"annual": "$0",
+		"link": "https://creditcards.chase.com/a1/olainkcash/th?CELL=6H8X&AFFID=SWlnSnn6x54-KrSj9_elUXtY8d4QfnMCRA&pvid=f358ac6be961410a937c510648b27f86&jp_cmp=cc/459013/aff/15-31367/na",
+		"top": "#cardPage"
+	},
+	{
+		"name": "Ink Plus Business Credit Card",
+		"shortname": "BSNS_CC2",
+		"details": "Earn 60,000 bonus points after you spend $5,000 on purchases in the first 3 months from account opening. That's $750 toward travel when you redeem through Chase Ultimate Rewards",
+		"annual": "$95",
+		"link": "https://creditcards.chase.com/a1/olainkplus?CELL=6H8X&AFFID=SWlnSnn6x54-D4JyBmodyeQvWHyBgimf6Q&pvid=cc3caaadf72a4f26bb62aeeb7fb7a62e&jp_cmp=cc/459013/aff/15-31366/na",
+		"top": "#cardPage"
+	},
+	{
+		"name": "Capital One Spark Cash for Business",
+		"shortname": "BSNS_CC3",
+		"details": "Plus, a one-time $500 cash bonus once you spend $4,500 on purchases within 3 months of approval",
+		"annual": "$0 for the first year, then $59",
+		"link": "https://www.capitalone.com/credit-cards/business/spark-cash/?external_id=CJA_ZZ12606448_SBCCJ_K3842381_91907d75a3714f90b41eec01e1d1f981",
+		"top": "#cardPage"
+	},
+	{
+		"name": "Capital One QuicksilverOne Cash Rewards Credit Card",
+		"shortname": "AVG_CC1",
+		"details": "Earn unlimited 1.5% cash back on every purchase, every day",
+		"annual": "$39",
+		"link": "https://www.capitalone.com/credit-cards/quicksilverone/?Log=1&EventType=Link&ComponentType=T&LOB=MTS%253A%253ALCTMMQC4S&PageName=acquick&TargetLob=MTS%253A%253ALCTMMQC4S&TargetPageName=Quicksilver+Cash+Rewards+Credit+Card&referer=https%253A%252F%252Fwww.capitalone.com%252Fcredit-cards%252Fgateway&external_id=CJA_ZZ12606442_USCCJ_K3842381_68d4a6516c3d4d399565cafc7b8dee0c",
+		"top": "#cardPage"
+	},
+	{
+		"name": "Discover It Secured Card - No Annual Fee",
+		"shortname": "BLD_CC1",
+		"details": "None",
+		"annual": "$0",
+		"link": "https://www.discovercard.com/application/displayLanding?pageFileId=double-listingsite-secured&sc=KXNR&cmpgnid=ls-dca-cj-nerd-secured-KXNR&aid=12492486&pid=3842381&sid=1ff140f1f042463fbf78619a550fbc65",
+		"top": "#cardPage"
+	},
+	{
+		"name": "Capital One Secured MasterCard",
+		"shortname": "BLD_CC2",
+		"details": "None",
+		"annual": "$0",
+		"link": "https://www.capitalone.com/credit-cards/secured-mastercard/?Log=1&EventType=Link&ComponentType=T&LOB=MTS%3A%3ALCTMMQC4S&PageName=sc&TargetLob=MTS%3A%3ALCTMMQC4S&TargetPageName=Secured+MasterCard+Details&referer=https%3A%2F%2Fwww.capitalone.com%2Fcredit-cards%2Fgateway&external_id=CJA_ZZ12606445_USCCJ_K3842381_41e1f521d920440eb83a60147c0cdd29",
+		"top": "#cardPage"
+	},
+	{
+		"name": "First Progress Platinum Elite MasterCard Secured Credit Card",
+		"shortname": "BLD_CC3",
+		"details": "None",
+		"annual":"$29",
+		"link": "https://www.mytimeforprogress.com/Funded/ApplyStepOneAlt.aspx?ckoff=1&sid=2501&hid=877939794&cd=501059&c1=20161024-6a0c3b194e633a723804&c2=nzznz&c3=",
+		"top": "#cardPage"
+	},
+	{
+		"name": "Discover It for Students",
+		"shortname": "CLLG_CC1",
+		"details": "Discover matches all the cash back you've earned at the end of your first year - automatically. Only for new cardmembers",
+		"annual": "$0",
+		"link": "https://www.discovercard.com/application/displayLanding?pageFileId=double-listingsite_student&sc=RJRY&cmpgnid=ls-dca-cj-nerd-student-it-rjry-dtop&aid=12460405&pid=3842381&sid=84cd5a289d644a46adf46aef27a8d8b0",
+		"top": "#cardPage"
+	},
+	{
+		"name": "Citi Thank You Preferred Card for College Students",
+		"shortname": "CLLG_CC2",
+		"details": "Earn 2,500 bonus ThankYou Points after spending $500 within the first 3 months of cardmembership",
+		"annual": "$0",
+		"link": "https://creditcards.citicards.com/usc/thankyou/Preferred/2016/April/External/College/default.htm?BTData=D37.B.gAB4f.J.BmY.MX4m.OUg.jHP.raU.Bj.Cd.Gy.E&app=COLLEGE&sc=4CYCN3N6&m=40J4111111W&cmp=AFA~01~120201~CARDSACQ~NerdWallet&B=C&ID=3007&uc=EXQ&t=t&naInd=M&AID=12569918&PID=3842381&SID=2e31f32062af442f98597b14534819f4&ProspectID=86E6115C1E6449F28DA763AA6044119B",
+		"top": "#cardPage"
+	}
+]
