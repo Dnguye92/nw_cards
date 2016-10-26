@@ -1,10 +1,10 @@
-<section class="cardPage">
+<section id="cardPage">
 	<div class="search">
 			<h4 id="nerdHeader">NERDWALLET'S</h4>
 			<h1>Best Credit Cards of 2016</h1>
 			<p id="cardIntro">From huge sign-up bonuses to generous rewards, NerdWallet's best credit<br> cards outshine the rest. Compare these deals, some of which are from our<br> partners, to find one that fits your needs.</p>
 			<label>Search: </label>
-			<input class="form-group" ng-model="query" placeholder="Search for Credit Card" autofocus>
+			<input class="form-class" ng-model="query" placeholder="Search for Credit Card" autofocus>
 			<label class="form-group">
 				<select class="form-control" ng-model="cardOrder">
 					<option value="name">Name</option>
@@ -21,11 +21,11 @@
 		<ul class="cardList">
 			<li ng-animate="'animate'" class="creditCards cf" ng-repeat="item in cardName | filter: query | orderBy: cardOrder:direction">
 				<div class="info">
-					<div class="container">
+					<div class="container" id="container">
 						<div class="row">
 							<div class="col-md-offset-1 col-md-3" id="cardImg">
 								<a href="{{item.link}}" target="_blank">
-									<img ng-src="img/{{item.shortname}}.jpg" alt="Photo of {{item.name}}" class="img-responsive">
+									<img ng-src="img/{{item.shortname}}.jpg" alt="Photo of {{item.name}}" class="img-responsive" id="cardPics">
 								</a>
 								<a href="{{item.top}}" id="backToTop">[back to top]</a>
 							</div>

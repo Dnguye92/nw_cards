@@ -5,7 +5,40 @@ nav, ul, li, hr, section {
 	border: 0;
 	font-family: 'Rubik', sans-serif;
 	vertical-align: baseline;
-	color: #464646;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+.navbar-default {
+	background-color: #fff;
+	height: 6em;
+}
+
+.navbar-brand, .navbar-nav {
+	padding-top: 1.5em;
+	padding-left: 1.5em;
+	background-color: #fff;
+}
+
+.navbar-toggle {
+	margin-top: 1.5em;
+}
+
+.navbar-default .navbar-toggle:focus,
+ .navbar-default .navbar-toggle:hover {
+	background-color: #fff;
+}
+
+/*#landing {
+	display: inline-block;
+	text-align: center;
+}*/
+
+#cardBtn {
+	position: absolute;
+	top: 22em;
+	left: 7.5em;
 }
 
 h1 {
@@ -17,7 +50,6 @@ h1 {
 
 #cardIntro {
 	text-align: center;
-	color: #929292;
 }
 
 #nerdHeader {
@@ -25,12 +57,12 @@ h1 {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.container{
+#container{
 	-webkit-transition: all 0.2s ease-out; /* Safari */
     transition: all 0.2s ease-out;
 }
 
-.container:hover {
+#container:hover {
 	background-color: #E7E7E7;
 	opacity: 1;
 	border-radius: 5px;
@@ -45,18 +77,19 @@ h1 {
 }
 
 span {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 16px;
 }
 
 .info {
 	padding: 10px 0 10px 0;
 }
 
-img {
+.img-responsive {
 	box-shadow: 0 2px 10px 0 rgba(0,0,0,.2)
 }
 
-img:hover {
+#cardPics:hover {
 	opacity: .85;
 }
 
@@ -68,6 +101,7 @@ img:hover {
 	text-decoration: none;
 	background-color: #6ed14f;
 	outline-color: #6ed14f;
+	border-color: #6ed14f;
 	color: #fff;
 	-webkit-transition-duration: 0.3s; /* Safari */
     transition-duration: 0.3s;
@@ -85,20 +119,16 @@ img:hover {
 }
 
 #backToTop, #backToTop:hover,
-#backtoTop:clicked, #backToTop:focus,
-a:hover {
+#backtoTop:clicked, #backToTop:focus {
 	color: #00BEE2;
 	text-decoration: none;
 	-webkit-transition-duration: 0.3s; /* Safari */
     transition-duration: 0.3s;
 }
 
-.cardPage {
+#cardPage {
 	padding-top: 25px;
-}
-
-.cardList li {
-
+	padding-bottom: 25px;
 }
 
 .creditCards.ng-enter.ng-enter-active,
@@ -115,7 +145,43 @@ a:hover {
 	overflow: hidden;
 }
 
+#pageFooter {
+	background-color: #464646;
+	height: 7em;
+	left: 10px;
+}
 
+#footerNav > ul {
+	padding-top: 45px;
+	padding-right: 3.5em;
+}
+
+#footerNav > ul li {
+	float: right;
+	display: inline-block;
+	padding: 0px 30px 0px 30px;
+
+}
+
+#footerNav > ul li a {
+	text-decoration: none;
+	color: #fff;
+	transition: 0.2s ease-out;
+	-webkit-transition: 0.2s ease-out;
+	-moz-transition: 0.2s ease-out;
+	-ms-transition: 0.2s ease-out;
+
+}
+
+#footerNav > ul li a:hover {
+	color: #30C4E7;
+
+}
+
+#footerImg {
+	float: left;
+	padding-top: 40px;
+}
 /* For modern browsers */
 .cf:before,
 .cf:after {
@@ -125,4 +191,60 @@ a:hover {
 
 .cf:after {
     clear:both;
+}
+
+@media(max-width: 975px) {
+	#cardBtn {
+		display: none;
+	}
+}
+
+@media(max-width: 800px) {
+	#container:hover {
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	transform: scale(0.9);
+	}
+}
+
+@media(max-width: 560px) {
+	#footerNav > ul li {
+		padding: 0px 10px 0px 10px;
+	}@media(max-width: 335px) {
+		#footerNav > ul li {
+			padding: 0px 5px 0px 5px;
+		}@media(max-width: 300px) {
+			#footer > ul li {
+				padding: 0px;
+				font-size: 8px;
+			}
+		}
+	}
+}
+
+@media(max-width: 300px) {
+	#footerNav > ul {
+		padding-top: 20px;
+	}
+}
+
+@media(max-width: 430px) {
+	#footerImg {
+		padding-top: 10px;
+	}@media(max-width: 315px) {
+		#footerImg {
+			padding-top: 5px;
+		}
+	}
+}
+
+@media(max-width: 270px) {
+	.navbar-brand {
+		padding-left: 0.5em;
+	}@media(max-width: 270px) {
+		h1 {
+			font-size: 36px;
+		}
+	}
 }

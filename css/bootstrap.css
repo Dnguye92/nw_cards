@@ -1098,7 +1098,7 @@ textarea {
 }
 a {
   color: #00BEE2;
-  text-decoration: none;
+/*  text-decoration: none;*/
 }
 a:hover,
 a:focus {
@@ -4193,7 +4193,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .navbar-collapse {
     width: auto;
     border-top: 0;
@@ -4530,7 +4530,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  border-color: #ddd;
+  border-color: #fff;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
